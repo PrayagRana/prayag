@@ -1,0 +1,24 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "this is a git and node learning",
+  "main": "index.html",
+  "scripts": {
+    "start":"npm run lite",
+    "lite":"lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrayagRana/prayag.git"
+  },
+  "author": "prayag singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PrayagRana/prayag/issues"
+  },
+  "homepage": "https://github.com/PrayagRana/prayag#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
